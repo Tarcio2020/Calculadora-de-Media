@@ -69,7 +69,8 @@ table th {
     font-weight: bold;
 }
 
-tbody td {
+table td {
+    padding: 16px 0;
     text-align: center;
     font-size: 18px;
     border-bottom: 1px solid rgb(59, 54, 54);
@@ -87,4 +88,12 @@ table td img {
     background-color: #000;
     border-radius: 8px;
 
+}
+
+.aprovado {
+    background-color: #009432;
+}
+
+.reprovado {
+    background-color: red;
 }
